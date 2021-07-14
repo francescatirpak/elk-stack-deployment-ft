@@ -7,11 +7,10 @@ Most scripts are used to configure cloud servers with docker containers, resulti
 
 The files in this repository were used to configure the network depicted below.
 
-[[https://github.com/francescatirpak/elk-stack-deployment-ft/blob/main/Diagrams/Project1_NetworkDiagram.png|alt=NetworkDiagram]]
+[https://github.com/francescatirpak/elk-stack-deployment-ft/blob/main/Diagrams/Project1_NetworkDiagram.png|alt=NetworkDiagram]
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Ansible file may be used to install only certain pieces of it, such as Filebeat.
 
-  [[/Ansible/roles/install-elk.yml|Install ELK]]
   [Install ELK](elk-stack-deployment/Ansible/roles/install-elk.yml "Install ELK")
 
 This document contains the following details:
